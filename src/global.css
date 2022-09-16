@@ -1,0 +1,59 @@
+/************ Custom Font ************/
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+nav.navbar a.navbar-brand {
+    width: 8%;
+}
+
+.homebg {
+	margin-top: 0;
+	padding: 0px 0 664px 0;
+	background-image: url('./assets/banner-bg.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.newvotebg {
+	margin-top: 0;
+	padding: 1px 0 267px 0;
+	background-image: url('./assets/banner-bg.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.votingboothbg {
+	margin-top: 0;
+	padding: 0px 0 217px 0;
+	background-image: url('./assets/banner-bg.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
