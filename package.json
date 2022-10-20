@@ -1,4 +1,5 @@
 {
+  "homepage": "http://deandrehaijiel.github.io/blockvote",
   "name": "blockvote",
   "version": "0.1.0",
   "license": "UNLICENSED",
@@ -10,7 +11,7 @@
     "dev:deploy:contract": "near dev-deploy",
     "deploy:contract": "near deploy",
     "deploy:pages": "gh-pages -d dist/",
-    "deploy": "npm run build && npm run deploy:contract && npm run deploy:pages",
+    "deploy": "npm run build && npm run deploy:contract && npm run deploy:pages && gh-pages -d build",
     "prestart": "npm run build:contract:debug && npm run dev:deploy:contract",
     "start": "echo The app is starting! It will automatically open in your browser when ready && env-cmd -f ./neardev/dev-account.env parcel src/index.html --open",
     "dev": "nodemon --watch contract -e ts --exec \"npm run start\"",
