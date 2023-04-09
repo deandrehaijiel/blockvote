@@ -1,6 +1,8 @@
 blockvote
 ==================
 
+Blockchain Voting System dApp
+
 This [React] app was initialized with [create-near-app]
 
 
