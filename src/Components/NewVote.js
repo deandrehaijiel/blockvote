@@ -36,8 +36,8 @@ const NewVote = (props) => {
   };
 
   return (
-    <body className="newvotebg">
-      <Container style={{ marginTop: "10px", color: "white"}}>
+    <body className="bg">
+      <Container style={{ paddingTop: "10px", color: "white"}}>
         <Form>
           <Form.Group className='mb-3'>
             <Form.Label>Candidiate 1 Name</Form.Label>

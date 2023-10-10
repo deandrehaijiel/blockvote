@@ -72,7 +72,7 @@ const VotingBooth = (props) => {
   };
 
   return (
-    <body className="votingboothbg">
+    <body className="bg">
       <Container>
         <Row>
           <Col className='jutify-content-center d-flex'>

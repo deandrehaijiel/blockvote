@@ -14,7 +14,7 @@ const Home = (props) => {
   }, []);
 
   return (
-    <body className="homebg">
+    <body className="bg">
     <Container>
       <br></br>
       <br></br>

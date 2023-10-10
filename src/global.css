@@ -15,45 +15,20 @@
 	font-weight: 400;
 }
 
-body {
-  margin: 0;
-}
+/************ CSS ************/
 
 img {
 	width: 100%;
-	height: auto;
 }
 
 nav.navbar a.navbar-brand {
     width: 8%;
 }
 
-.homebg {
-	margin-top: 0;
-	padding: 0px 0 664px 0;
+.bg {
 	background-image: url('./assets/banner-bg.png');
+	height: 100vh;
 	background-position: top center;
-	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: black;
-}
-
-.newvotebg {
-	margin-top: 0;
-	padding: 1px 0 267px 0;
-	background-image: url('./assets/banner-bg.png');
-	background-position: top center;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-color: black;
-}
-
-.votingboothbg {
-	margin-top: 0;
-	padding: 0px 0 217px 0;
-	background-image: url('./assets/banner-bg.png');
-	background-position: top center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-color: black;
 }
