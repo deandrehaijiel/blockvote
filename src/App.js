@@ -37,12 +37,20 @@ export default function App() {
           <Navbar.Toggle aria-controls='basic-navbar-nav'>
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
+<<<<<<< HEAD
           <Nav className="me-auto">
+=======
+          <Nav className="me-auto" className="bold">
+>>>>>>> 4d9edf3579ce6ac715991cf9d0abd91a39754f1f
             <Nav.Link href='/'>Blockchain Voting System</Nav.Link>
           </Nav>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'></Nav>
+<<<<<<< HEAD
             <Nav>
+=======
+            <Nav className="bold">
+>>>>>>> 4d9edf3579ce6ac715991cf9d0abd91a39754f1f
               <Nav.Link href='/NewVote'>New Vote</Nav.Link>
               <Nav.Link onClick={window.accountId === "" ? login : logout}>
                 {window.accountId === "" ? "Login" : window.accountId + " [Logout]" }

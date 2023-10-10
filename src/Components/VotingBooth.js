@@ -72,7 +72,11 @@ const VotingBooth = (props) => {
   };
 
   return (
+<<<<<<< HEAD
     <body className="bg">
+=======
+    <body className="votingboothbg">
+>>>>>>> 4d9edf3579ce6ac715991cf9d0abd91a39754f1f
       <Container>
         <Row>
           <Col className='jutify-content-center d-flex'>

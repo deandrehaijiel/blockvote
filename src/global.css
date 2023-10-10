@@ -15,16 +15,27 @@
 	font-weight: 400;
 }
 
+<<<<<<< HEAD
 /************ CSS ************/
 
 img {
 	width: 100%;
+=======
+body {
+  margin: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+>>>>>>> 4d9edf3579ce6ac715991cf9d0abd91a39754f1f
 }
 
 nav.navbar a.navbar-brand {
     width: 8%;
 }
 
+<<<<<<< HEAD
 .bg {
 	background-image: url('./assets/banner-bg.png');
 	height: 100vh;
@@ -32,3 +43,39 @@ nav.navbar a.navbar-brand {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+=======
+.homebg {
+	margin-top: 0;
+	padding: 0px 0 664px 0;
+	background-image: url('./assets/banner-bg.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.newvotebg {
+	margin-top: 0;
+	padding: 1px 0 267px 0;
+	background-image: url('./assets/banner-bg.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.votingboothbg {
+	margin-top: 0;
+	padding: 0px 0 241px 0;
+	background-image: url('./assets/banner-bg.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.bold {
+	font-size: larger;
+	font-weight: 700;
+}
+>>>>>>> 4d9edf3579ce6ac715991cf9d0abd91a39754f1f

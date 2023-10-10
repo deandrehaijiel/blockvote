@@ -8802,10 +8802,17 @@
   "resolved" "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz"
   "version" "3.0.0"
 
+<<<<<<< HEAD
 "shelljs@~0.8.4":
   "integrity" "sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ=="
   "resolved" "https://registry.npmjs.org/shelljs/-/shelljs-0.8.4.tgz"
   "version" "0.8.4"
+=======
+"shelljs@^0.8.5":
+  "integrity" "sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow=="
+  "resolved" "https://registry.npmjs.org/shelljs/-/shelljs-0.8.5.tgz"
+  "version" "0.8.5"
+>>>>>>> 4d9edf3579ce6ac715991cf9d0abd91a39754f1f
   dependencies:
     "glob" "^7.0.0"
     "interpret" "^1.0.0"

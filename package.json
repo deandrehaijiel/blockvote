@@ -31,7 +31,11 @@
     "parcel-bundler": "~1.12.4",
     "react-test-renderer": "~17.0.1",
     "sass": "^1.32.*",
+<<<<<<< HEAD
     "shelljs": "~0.8.4"
+=======
+    "shelljs": "^0.8.5"
+>>>>>>> 4d9edf3579ce6ac715991cf9d0abd91a39754f1f
   },
   "dependencies": {
     "@popperjs/core": "^2.10.2",

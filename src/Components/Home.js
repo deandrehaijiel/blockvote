@@ -14,7 +14,11 @@ const Home = (props) => {
   }, []);
 
   return (
+<<<<<<< HEAD
     <body className="bg">
+=======
+    <body className="homebg">
+>>>>>>> 4d9edf3579ce6ac715991cf9d0abd91a39754f1f
     <Container>
       <br></br>
       <br></br>
